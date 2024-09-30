@@ -1,0 +1,31 @@
+#root {
+	display: grid;
+	height: 100%;
+	width: 100%;
+	grid-template-rows: 1fr auto 1fr;
+	grid-template-columns: 1fr auto 1fr;
+}
+
+.clock_display {
+	grid-area: /* row-start */ 2 / /* column-start */ 2 / /* row-end */ 3 / /* column-end */ 3;
+	font-size: xx-large;
+}
+
+.stop {
+	color: #FF5E5E;
+}
+
+.go {
+	color: #00AE03;
+}
+
+* {
+	background-color: #000000;
+	color: #959595
+}
+
+input {
+	background-color: #101010;
+	border-color: #898989;
+	color: #ffffff
+}
